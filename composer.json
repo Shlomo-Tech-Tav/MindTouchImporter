@@ -1,0 +1,16 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jlcross/MindTouchAPI"
+        }
+    ],
+    "require": {
+        "mindtouchapi": "dev-master",
+        "catfan/medoo": "^0.9.8",
+        "electrolinux/phpquery": "^0.9.6",
+        "phpmailer/phpmailer": "^5.2",
+        "prewk/xml-string-streamer": "^0.7.1",
+        "ezyang/htmlpurifier": "^4.7"
+    }
+}

@@ -1,0 +1,119 @@
+body {
+	min-height: 100%;
+	padding: 70px 0 15px 0;
+}
+
+.navbar-brand.logo {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.navbar-brand.logo img {
+	height: 40px;
+	width: 81px;
+}
+.navbar-brand.logo .logo-title {
+	display: inline-block;
+	padding-left: 7px;
+	vertical-align: middle;
+	width: 90px;
+}
+
+/* Add scrolling to dropdown menus. */
+.dropdown-menu {
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+ul.inline-links {
+	display: inline;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+ul.inline-links li {
+	border-left: 1px solid rgb(231,​ 231,​ 231);
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0 10px;
+}
+ul.inline-links li:first-child {
+	border-left: none;
+	padding-left: 0;
+}
+
+.container .table-width-auto {
+	width: auto;
+}
+
+.navbar.footer {
+	font-size: 9px;
+	line-height: 13px;
+	min-height: 14px;
+}
+
+.navbar.footer .copyright, 
+.navbar.footer .version {
+	color: rgb(85, 85, 85);
+}
+
+/** Hide some forms on user creation. */
+#user-create .created-on, 
+#user-create .last-accessed {
+	display: none;
+}
+
+/** Classes for table of contents on report results page. */
+.table-of-contents {
+	padding: 10px;
+}
+.table-of-contents h3 {
+	margin-top: 0;
+}
+.table-of-contents ul {
+	margin-bottom: 0;
+}
+
+/** This prevents anchor tags from being obscured when clicked. */
+*[id]:before { 
+	display: block; 
+	content: " "; 
+	margin-top: -70px; 
+	height: 70px; 
+	visibility: hidden; 
+}
+
+/** Processing page styles. */
+.bg-danger {
+	padding: 15px;
+}
+/** Upload progress bar. */
+#import-upload-progress {
+	margin-top: 20px;
+}
+
+/** Import queue count on import upload form. */
+.queued-items-wrap .popover {
+	width: 230px;
+}
+.queued-items {
+}
+
+.popover-content ol, 
+.popover-content ul {
+	padding-left: 20px;
+}
+
+/** Add bottom margin to buttons, except for in modals. */
+.btn {
+	margin-bottom: 10px;
+}
+.modal-footer .btn {
+	margin-bottom: 0;
+}
+
+/** Add asterisk after required form elements. */
+.form-group.required label:after {
+	content:"*";
+	color:red;
+}

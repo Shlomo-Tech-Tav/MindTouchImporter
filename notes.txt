@@ -1,0 +1,155 @@
+== Version 1.9.3 ==
+Released: 2015-07-16
+
+** Bug
+    * [IM-76] - Remove special characters from uploaded file names to prevent errors.
+    * [IM-77] - Error displayed on client page when imports directory doesn't exist.
+
+== Version 1.9.2 ==
+Released: 2015-06-25
+
+** Bug
+    * [IM-72] - Hide production column from non-admins on reports pages.
+
+** Improvement
+    * [IM-73] - Add log in and log out to usage table.
+    * [IM-74] - Create forgot password user flow.
+    * [IM-75] - Add confirmation to report delete.
+
+== Version 1.9.1 ==
+Released: 2015-06-23
+
+** Bug
+    * [IM-62] - Make html breaking on h1s and h2s case insensitive.
+    * [IM-63] - Let non-admin users see client reports.
+    * [IM-68] - Deal with multiple uploads.
+    * [IM-71] - Handle preprocess URLs when the import has been removed.
+
+** Improvement
+    * [IM-64] - Refresh page to display queued items after Word upload.
+    * [IM-65] - Create OpenOffice-specific import class to convert HTML to MindTouch pages.
+    * [IM-66] - Display pages to add in a tree view on parse page.
+    * [IM-67] - Change default title when none found on Word imports.
+    * [IM-69] - Warn about staying on the processing page until the import is complete.
+    * [IM-70] - Show the MindTouch destination of the import.
+
+== Version 1.9 ==
+Released: 2015-06-16
+
+** Improvement
+    * [IM-51] - Make client creation more modular.
+    * [IM-52] - Create database schema for import types table.
+    * [IM-53] - Purchase and install phpdocx.
+    * [IM-54] - Create way to make sure OpenOffice continues running headless in the background.
+    * [IM-55] - Incorporate phpdocx conversion plugin into import upload process.
+    * [IM-56] - Update login process to redirect to provided URL.
+    * [IM-57] - Require users to have email address.
+    * [IM-58] - Create cron script to process phpdocx Word conversions.
+    * [IM-59] - Create import queue database table.
+    * [IM-61] - Deal with display of imports when in process queue.
+
+== Version 1.8 ==
+Released: 2015-05-05
+
+** Improvement
+    * [IM-40] - Add ability to upload file and import it.
+    * [IM-41] - Add ability to upload assets.
+    * [IM-43] - Add user deactivation.
+    * [IM-44] - Create database schema for user usage.
+    * [IM-45] - Add monitoring of user usage of uploading.
+    * [IM-47] - Add support for MindTouch content/context IDs.
+    * [IM-48] - Let allowed extensions be assigned per client.
+    * [IM-49] - Show progress bar while uploading files.
+    * [IM-50] - Provide option to delete import files after importing.
+
+== Version 1.7 ==
+Released: 2015-04-15
+
+** Improvement
+    * [IM-13] - Create database schema for clients.
+    * [IM-15] - Limit users to a client.
+    * [IM-16] - Create admin area to manage clients.
+
+== Version 1.6.1 ==
+Released: 2015-03-31
+
+** Bug
+    * [IM-38] - Pages with same title but different path aren't allowed.
+
+** Improvement
+    * [IM-37] - Increase usability of reports table.
+    * [IM-39] - Add ability to convert bulleted and ordered lists from Word html.
+
+== Version 1.6 ==
+Released: 2015-03-18
+
+=== Improvement ===
+    * [IM-18] - Update pageCreate API function to accept title separate from pageId.
+    * [IM-23] - Create reports class.
+    * [IM-24] - Create reports database schema.
+    * [IM-25] - Store reports in database.
+    * [IM-26] - Add internal links report.
+    * [IM-27] - Improve assets report.
+    * [IM-34] - Force site to use secure URL.
+    * [IM-35] - Add reports pages to client menu.
+    * [IM-36] - Improve menu to make adding items and making them active easier.
+
+== Version 1.5.1 ==
+Released: 2015-03-12
+
+=== Bug ===
+    * [IM-29] - Enforce length limit on temporary file names.
+
+=== Improvement ===
+    * [IM-30] - Add ability to set page order.
+    * [IM-31] - Add security option to import.
+    * [IM-32] - Make Word Import class record anchor names.
+    * [IM-33] - Add import path for production.
+
+== Version 1.5 ==
+Released: 2015-03-03
+
+=== Improvement ===
+    * [IM-17] - Make Word imports more modular.
+
+== Version 1.4.1 ==
+Released: 2015-02-26
+
+=== Bug ===
+    * [IM-22] - Support attachments with spaces in file names.
+
+=== Improvement ===
+    * [IM-19] - Add code to remove inline background colors.
+    * [IM-20] - Add page delete call to the MindTouch API class. 
+    * [IM-21] - Add ability to replace internal links with MindTouch links.
+
+== Version 1.4 ==
+Released: 2015-02-20
+
+=== Improvement ===
+    * [IM-10] - Add database framework.
+    * [IM-11] - Create database schema for users.
+    * [IM-12] - Create admin area to manage users.
+    * [IM-14] - Allow users to log in.
+
+== Version 1.3.1 ==
+Released: 2015-02-11
+
+=== Bug ===
+    * [IM-9] - Fix collapsed menu.
+
+=== Improvement ===
+    * [IM-6] - ADP: Have attachments use media library for each country.
+    * [IM-8] - Add footer with version.
+
+== Version 1.3 ==
+Released: 2015-02-04
+
+=== Bug ===
+    * [IM-4] - Importer continues reloading loading page and never finishes import.
+
+=== Improvement ===
+    * [IM-1] - Add ability to import into production site.
+    * [IM-2] - Move more of the page creation out of the individual client's class.
+    * [IM-3] - Improve asset attachment process.
+    * [IM-5] - Remove height and width of images in imports.
